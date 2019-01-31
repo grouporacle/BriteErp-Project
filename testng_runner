@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="WebOrders" verbose="2">
+
+    <test name="WebOrders Automated Tests">
+        <classes>
+            <class name="com.BriteErp.tests.functional_tests.">
+                <methods><include name="blankUsername"/></methods>
+            </class>
+            <class name="com.BriteErp.tests.functional_tests.AsManager">
+
+            </class>
+        </classes>
+    </test>
+
+</suite>
