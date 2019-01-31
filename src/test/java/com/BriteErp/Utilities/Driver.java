@@ -1,4 +1,4 @@
-package com.BriteErp.utilities;
+package com.BriteErp.Utilities;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

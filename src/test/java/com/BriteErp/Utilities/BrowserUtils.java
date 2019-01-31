@@ -1,4 +1,4 @@
-package com.BriteErp.utilities;
+package com.BriteErp.Utilities;
 
 import com.google.common.base.Function;
 import org.apache.commons.io.FileUtils;
@@ -6,13 +6,11 @@ import org.openqa.selenium.*;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.*;
-import org.testng.Assert;
 
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 import java.util.*;
 
 import static org.testng.Assert.assertTrue;

@@ -1,4 +1,4 @@
-package com.BriteErp.utilities;
+package com.BriteErp.Utilities;
 
 public class ApplicationConstants {
 //titles of all buttons in homepage

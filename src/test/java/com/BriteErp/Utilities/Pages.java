@@ -1,4 +1,4 @@
-package com.BriteErp.utilities;
+package com.BriteErp.Utilities;
 
 import com.BriteErp.pages.*;
 
@@ -6,7 +6,7 @@ public class Pages {
     private LoginPage loginPage;
     private CRMmodule crmModule;
     private CustomersPage customersPage;
-    private ManagersPage managersPage;
+   // private ManagersPage managersPage;
 
     public LoginPage login() {
         if (loginPage == null) {
@@ -29,10 +29,10 @@ public class Pages {
         return customersPage;
     }
 
-    public ManagersPage manager() {
-        if (managersPage == null) {
-            managersPage = new ManagersPage();
-        }
-        return managersPage;
-    }
+   // public ManagersPage manager() {
+    //    if (managersPage == null) {
+    //        managersPage = new ManagersPage();
+    //    }
+     //   return managersPage;
+  //  }
 }
