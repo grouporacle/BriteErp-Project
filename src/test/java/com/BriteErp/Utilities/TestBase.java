@@ -3,6 +3,7 @@ package com.BriteErp.Utilities;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
@@ -25,6 +26,7 @@ public abstract class TestBase {
         pages = new Pages();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get(ConfigurationReader.getProperty("url"));
+        driver.findElement(By.linkText("BriteErpDemo")).click();
     }
 
     @AfterMethod

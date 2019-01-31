@@ -3,10 +3,10 @@
 
     <test name="WebOrders Automated Tests">
         <classes>
-            <class name="com.BriteErp.tests.functional_tests.">
+            <class name="com.BriteErp.Tests.Functional_Tests.">
                 <methods><include name="blankUsername"/></methods>
             </class>
-            <class name="com.BriteErp.tests.functional_tests.AsManager">
+            <class name="com.BriteErp.Tests.Functional_Tests.AsManager">
 
             </class>
         </classes>
