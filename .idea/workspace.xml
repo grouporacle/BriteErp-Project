@@ -2,53 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="158cfb82-0760-4fd3-ad3a-3c822862943a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/CustomerCardOnWebsiteBRIT2005.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/ErrorValidationCustomerCardFieldsBRIT1742.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/MobilePreviewBRIT2021/MobilePreviewBRIT2021.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/BriteErp/pages/MobilePreviewPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotscustomerInfoCardCreateTest20190131071558.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotscustomerInfoCardCreateTest20190131071719.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotscustomerInfoCardCreateTest20190131083253.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotscustomerInfoCardCreateTest20190131083804.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotscustomerInfoCardCreateTest20190131084250.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotscustomerInfoCardCreateTest20190131084536.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotscustomerInfoCardCreateTest20190131084732.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotscustomerInfoCardCreateTest20190131085228.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotscustomerInfoCardCreateTest20190131085342.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-output/ScreenshotspageTitleTests20190131092213.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/CustomerInfoCardBRIT1927.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/CustomerInfoCardBRIT1927.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Smoke_Tests/PagesTitlesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Smoke_Tests/PagesTitlesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/BriteErp/Utilities/ApplicationConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BriteErp/Utilities/ApplicationConstants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/BriteErp/Utilities/BrowserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BriteErp/Utilities/BrowserUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/BriteErp/Utilities/Pages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BriteErp/Utilities/Pages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/BriteErp/Utilities/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BriteErp/Utilities/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/BriteErp/pages/CRMmodule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BriteErp/pages/CRMmodule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/BriteErp/pages/CustomersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BriteErp/pages/CustomersPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/BriteErp/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BriteErp/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BriteErp/Tests/Functional_Tests/CustomerInfoCardBRIT1927.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BriteErp/Tests/Functional_Tests/CustomerInfoCardBRIT1927.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BriteErp/Tests/Smoke_Tests/PagesTitlesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BriteErp/Tests/Smoke_Tests/PagesTitlesTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BriteErp/Utilities/ApplicationConstants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BriteErp/Utilities/ApplicationConstants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BriteErp/Utilities/BrowserUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BriteErp/Utilities/BrowserUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BriteErp/Utilities/Pages.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BriteErp/Utilities/Pages.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BriteErp/Utilities/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BriteErp/Utilities/TestBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BriteErp/pages/CRMmodule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BriteErp/pages/CRMmodule.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BriteErp/pages/CustomersPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BriteErp/pages/CustomersPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BriteErp/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BriteErp/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotspageTitleTests20190131010721.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotspageTitleTests20190131011131.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotspageTitleTests20190131115604.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotspageTitleTests20190131115803.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotspageTitleTests20190131115929.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotspageTitleTests20190131120037.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotspageTitleTests20190131120119.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotspageTitleTests20190131122030.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotspageTitleTests20190131123031.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotspageTitleTests20190131123628.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotspageTitleTests20190131125027.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotspageTitleTests20190131125205.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotspageTitleTests20190131125953.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -64,12 +18,13 @@
         <counts>
           <entry key="dummy" value="27" />
           <entry key="java" value="3390" />
+          <entry key="txt" value="65" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="3390" />
-          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="PLAIN_TEXT" value="92" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.lifecycle.project">
@@ -132,7 +87,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/CustomerCardOnWebsiteBRIT2005.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-110">
+            <state relative-caret-position="-178">
               <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -385,7 +340,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549004184353" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549004326438" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -518,6 +473,14 @@
       <option name="presentableId" value="Default" />
       <updated>1548925946239</updated>
     </task>
+    <task id="LOCAL-00001" summary="BRIT2005,BRIT2021 added.BRIT1742-Ignore">
+      <created>1549004282065</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549004282065</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -564,14 +527,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32786885" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32786885" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32850242" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32903227" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="9" visible="true" weight="0.32786885" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32850242" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -614,6 +577,11 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="BRIT2005,BRIT2021 added.BRIT1742-Ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="BRIT2005,BRIT2021 added.BRIT1742-Ignore" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -766,7 +734,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/CustomerCardOnWebsiteBRIT2005.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-110">
+        <state relative-caret-position="-178">
           <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
           <folding>
             <element signature="imports" expanded="true" />
