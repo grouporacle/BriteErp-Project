@@ -11,26 +11,37 @@ public class CustomersPage extends Pages {
             PageFactory.initElements(Driver.getDriver(), this);
         }
 
-        @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/div[2]/div[1]/div/button[1]")
+        @FindBy(xpath = "//body/div[1]/div[2]/div[1]/div[2]/div[1]/div/button[1]")
         public WebElement customerCardCreateButton;
 
-        @FindBy(id = "o_field_input_249")
+        @FindBy(xpath ="//input[@class='o_field_char o_field_widget o_input o_required_modifier']")
         public WebElement nameField;
 
-        @FindBy(id ="radio247_person")
+        @FindBy(xpath ="(//input[@class='o_radio_input'])[1]")
         public WebElement individRadioButton;
 
-        @FindBy(id="radio247_company")
+        @FindBy(xpath="(//input[@class='o_radio_input'])[2]")
         public WebElement companyRadioButton;
 
-        @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/div[2]/div[1]/div/div[2]/button[1]")
+        @FindBy(xpath = "//body/div[1]/div[2]/div[1]/div[2]/div[1]/div/div[2]/button[1]")
         public WebElement saveButton;
 
-        @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/div[2]/div[2]/div/div[3]/button")
-        public WebElement actionDropDownButton;
+        @FindBy(xpath = "(//li[@class='active'])[2]")
+        public WebElement createdCardName;
 
-        @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/ol/li[2]")
-        public WebElement creteadCardName;
+        @FindBy(xpath = "(//input[@class='o_field_char o_field_widget o_input o_address_street'])[1]")
+        public WebElement streetField1;
+
+        @FindBy(xpath = "(//input[@class='o_field_char o_field_widget o_input o_address_street'])[2]")
+        public WebElement streetField2;
+
+        @FindBy(xpath = "//span[@class='o_stat_text o_value text-danger']")
+        public WebElement unPublishedLink;
+
+        @FindBy(xpath = "//span[@class='css_publish']")
+        public WebElement unPublishOnLocalHost;
+
+
 
 
     }

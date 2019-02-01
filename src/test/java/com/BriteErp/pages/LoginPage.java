@@ -12,8 +12,7 @@ public class LoginPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(xpath = "(//a[@class='list-group-item'])[2]")
-    public WebElement briteErpDemoGroup;
+
 
     @FindBy(id = "login")
     public WebElement username;

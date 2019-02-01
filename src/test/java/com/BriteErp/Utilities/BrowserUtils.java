@@ -150,6 +150,12 @@ public class BrowserUtils {
         });
         return element;
     }
+    /** To Wait Until Title is */
+    public static void explicitWaitTitleIs(int time, String title) {
+        WebDriverWait titleIs = new WebDriverWait(Driver.getDriver(), time);
+        titleIs.until(ExpectedConditions.titleIs(title));
+    }
+
 
     /**
      * Verifies whether the element matching the provided locator is displayed on page
@@ -178,6 +184,7 @@ public class BrowserUtils {
 
         }
     }
+
 
     /**
      * Waits for element to be not stale
@@ -262,7 +269,7 @@ public class BrowserUtils {
      * @param element
      * @param check
      */
-    public void selectCheckBox(WebElement element, boolean check){
+    public static void selectCheckBox(WebElement element, boolean check){
         if(check){
             if(!element.isSelected()){
                 element.click();

@@ -1,11 +1,9 @@
 package com.BriteErp.Tests.Smoke_Tests;
 
+import com.BriteErp.Utilities.ApplicationConstants;
 import com.BriteErp.Utilities.BrowserUtils;
 import com.BriteErp.Utilities.ConfigurationReader;
 import com.BriteErp.Utilities.TestBase;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -18,8 +16,6 @@ public class PagesTitlesTest extends TestBase {
         //2. Go to url http://52.39.162.23
         extentLogger = report.createTest("Page headers test");
 
-
-
         //1 Verify that the title contains "Login"
         extentLogger.info("Checking the title contains Login");
         Assert.assertTrue(driver.getTitle().contains("Login"));
@@ -29,44 +25,40 @@ public class PagesTitlesTest extends TestBase {
 
         //4.check title odoo
         extentLogger.info("Check title odoo");
-        Assert.assertTrue(driver.getTitle().contains("Odoo"));
+        Assert.assertTrue(driver.getTitle().contains(ApplicationConstants.ODOOTITLE));
 
         //4.Click on CRM module
         extentLogger.info("Click Crm Module");
 
-       BrowserUtils.hover(pages.crm().CRMheader);
-        WebElement visibleNow =isElementLoaded(pages.crm().CRMheader);
-        visibleNow.click();
-        WebDriverWait wait =new WebDriverWait(driver, 20);
-        wait.until(ExpectedConditions.titleIs("Pipeline - Odoo"));Assert.assertTrue(driver.getTitle().contains(pages.crm().pipelineHeader.getText()));
+        BrowserUtils.hover(pages.crm().CRMheader);
+        BrowserUtils.waitForVisibility(pages.crm().CRMheader, 15);
+        pages.crm().CRMheader.click();
+        BrowserUtils.explicitWaitTitleIs(20, "Pipeline - Odoo");
+        Assert.assertTrue(driver.getTitle().contains(ApplicationConstants.PIPELINETITLE));
 
         //Click on Customers link
         extentLogger.info("Click on customer link");
 
         BrowserUtils.hover(pages.crm().customersHeader);
-        WebElement customerHeaderVisibleNow =isElementLoaded(pages.crm().customersHeader);
-        customerHeaderVisibleNow.click();
+        BrowserUtils.waitForVisibility(pages.crm().customersHeader,20);
+        pages.crm().customersHeader.click();
 
         //Verify that the title contains "Customers"
         extentLogger.info("Verify customers header");
 
-        wait.until(ExpectedConditions.titleIs("Customers - Odoo"));
-        Assert.assertTrue(driver.getTitle().contains("Customers"));
+        BrowserUtils.explicitWaitTitleIs(20,"Customers - Odoo");
+        Assert.assertTrue(driver.getTitle().contains(ApplicationConstants.CUSTOMERSTITLE));
 
         //Click on create button
         extentLogger.info("Click on create button");
         extentLogger.info("Verify new header");
 
-        pages.customer().customerCardCreateButton.click();
-        wait.until(ExpectedConditions.titleIs("New - Odoo"));
-        Assert.assertTrue(driver.getTitle().contains("New"));
+         pages.customer().customerCardCreateButton.click();
+        BrowserUtils.explicitWaitTitleIs(20, "New - Odoo");
+        Assert.assertTrue(driver.getTitle().contains(ApplicationConstants.NEWTITLE));
 
-        extentLogger .pass("Page headers test");
+      //  extentLogger .pass("Page headers test");
     }
 
-    public WebElement isElementLoaded(WebElement elementToBeLoaded) {
-        WebDriverWait wait = new WebDriverWait(driver, 20);
-        WebElement element = wait.until(ExpectedConditions.visibilityOf(elementToBeLoaded));
-        return element;
-    }
+
 }

@@ -17,4 +17,8 @@ public class ApplicationConstants {
     public static final String EXPENSES = "My Expenses to Submit";
     public static final String MAINTENANCE = "Maintenance Teams";
     public static final String DASHBOARDS = "My Dashboard";
+    public static final String ODOOTITLE="Odoo";
+    public static final String PIPELINETITLE="Pipeline - Odoo";
+    public static final String CUSTOMERSTITLE="Customers - Odoo";
+    public static final String NEWTITLE="New - Odoo";
 }

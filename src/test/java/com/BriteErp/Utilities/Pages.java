@@ -6,6 +6,7 @@ public class Pages {
     private LoginPage loginPage;
     private CRMmodule crmModule;
     private CustomersPage customersPage;
+    private MobilePreviewPage mobilePreviewPage;
    // private ManagersPage managersPage;
 
     public LoginPage login() {
@@ -27,6 +28,12 @@ public class Pages {
             customersPage = new CustomersPage();
         }
         return customersPage;
+    }
+    public MobilePreviewPage mobilePreviewPage() {
+        if (mobilePreviewPage == null) {
+            mobilePreviewPage = new MobilePreviewPage();
+        }
+        return mobilePreviewPage;
     }
 
    // public ManagersPage manager() {
