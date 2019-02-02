@@ -50,7 +50,7 @@ public class CustomerInfoCardBRIT1927 extends TestBase {
            Assert.assertFalse(pages.customer().saveButton.isSelected());
 
         //11. Verify that a new customer card is created
-          BrowserUtils.explicitWaitTitleIs(15,"Saya_Company");
+          BrowserUtils.explicitWaitTitleIs(15,"Saya_Company - Odoo");
           Assert.assertTrue(pages.customer().createdCardName.getText().contains("Saya_Company"));
 
 

@@ -7,7 +7,7 @@ import com.BriteErp.Utilities.TestBase;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class PagesTitlesTest extends TestBase {
+public class PagesTitlesTestBRIT3603 extends TestBase {
 
 
     @Test
@@ -16,7 +16,7 @@ public class PagesTitlesTest extends TestBase {
         //2. Go to url http://52.39.162.23
         extentLogger = report.createTest("Page headers test");
 
-        //1 Verify that the title contains "Login"
+        // Verify that the title contains "Login"
         extentLogger.info("Checking the title contains Login");
         Assert.assertTrue(driver.getTitle().contains("Login"));
         //3. Login as any valid user
@@ -27,37 +27,39 @@ public class PagesTitlesTest extends TestBase {
         extentLogger.info("Check title odoo");
         Assert.assertTrue(driver.getTitle().contains(ApplicationConstants.ODOOTITLE));
 
-        //4.Click on CRM module
+        //5.Click on CRM module
         extentLogger.info("Click Crm Module");
 
         BrowserUtils.hover(pages.crm().CRMheader);
         BrowserUtils.waitForVisibility(pages.crm().CRMheader, 15);
         pages.crm().CRMheader.click();
         BrowserUtils.explicitWaitTitleIs(20, "Pipeline - Odoo");
+        //6. Verify that title is Pipeline
         Assert.assertTrue(driver.getTitle().contains(ApplicationConstants.PIPELINETITLE));
 
-        //Click on Customers link
+        //7. Click on Customers link
         extentLogger.info("Click on customer link");
 
         BrowserUtils.hover(pages.crm().customersHeader);
         BrowserUtils.waitForVisibility(pages.crm().customersHeader,20);
         pages.crm().customersHeader.click();
 
-        //Verify that the title contains "Customers"
+        //8. Verify that the title contains "Customers"
         extentLogger.info("Verify customers header");
 
         BrowserUtils.explicitWaitTitleIs(20,"Customers - Odoo");
         Assert.assertTrue(driver.getTitle().contains(ApplicationConstants.CUSTOMERSTITLE));
 
-        //Click on create button
+        //9. Click on create button
         extentLogger.info("Click on create button");
         extentLogger.info("Verify new header");
 
          pages.customer().customerCardCreateButton.click();
         BrowserUtils.explicitWaitTitleIs(20, "New - Odoo");
+       //10. Verify that the title contains header name
         Assert.assertTrue(driver.getTitle().contains(ApplicationConstants.NEWTITLE));
 
-      //  extentLogger .pass("Page headers test");
+      extentLogger .pass("Page headers test");
     }
 
 
