@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="158cfb82-0760-4fd3-ad3a-3c822862943a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/SalesChannel_BRIT3556.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/SalesChannel_BRIT3556.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/BriteErp/pages/CRMmodule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BriteErp/pages/CRMmodule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/BriteErp/pages/SalesChannelPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/BriteErp/pages/SalesChannelPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BriteErp/Tests/Functional_Tests/SalesChannel_BRIT3556.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BriteErp/Tests/Functional_Tests/SalesChannel_BRIT3556.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BriteErp/pages/CRMmodule.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BriteErp/pages/CRMmodule.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/BriteErp/pages/SalesChannelPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/BriteErp/pages/SalesChannelPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsSalesChannelTest20190203122217.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotscustomerInfoCardCreateTest20190131071558.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotscustomerInfoCardCreateTest20190131071719.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotscustomerInfoCardCreateTest20190131083253.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotscustomerInfoCardCreateTest20190131083804.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotscustomerInfoCardCreateTest20190131084250.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotscustomerInfoCardCreateTest20190131084536.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotscustomerInfoCardCreateTest20190131084732.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotscustomerInfoCardCreateTest20190131085228.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotscustomerInfoCardCreateTest20190131085342.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotspageTitleTests20190131092213.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -17,13 +33,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/Utilities/BrowserUtils.java">
+        <entry file="file://$PROJECT_DIR$/testng_runner">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="106" selection-start-line="106" selection-end-line="106" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -31,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/SalesChannel_BRIT3556.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="34" column="62" lean-forward="true" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+            <state relative-caret-position="251">
+              <caret line="89" column="8" lean-forward="true" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -41,10 +54,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/pages/CRMmodule.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/ErrorValidationSalesChannel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="90" />
+            <state relative-caret-position="285">
+              <caret line="39" column="81" selection-start-line="39" selection-start-column="81" selection-end-line="39" selection-end-column="81" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/pages/SalesChannelPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+            <state relative-caret-position="187">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -77,6 +90,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>http://52.39.162.23</find>
+      <find>c</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,8 +129,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/CustomerCardOnWebsiteBRIT2005.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/BriteErp/Utilities/Pages.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/BriteErp/pages/CRMmodule.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/BriteErp/pages/SalesChannelPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/SalesChannel_BRIT3556.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/ErrorValidationSalesChanneFileUpload.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BriteErp/pages/SalesChannelPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/ErrorValidationSalesChannel.java" />
       </list>
     </option>
   </component>
@@ -128,10 +144,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="18" />
-    <option name="y" value="-15" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+    <option name="x" value="1912" />
+    <option name="y" value="166" />
+    <option name="width" value="1382" />
+    <option name="height" value="754" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -223,19 +239,12 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Functional_Tests" type="462c0819:PsiDirectoryNode" />
-              <item name="MobilePreviewBRIT2021" type="462c0819:PsiDirectoryNode" />
+              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BriteErp" type="b2602c69:ProjectViewProjectNode" />
               <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="BriteErp" type="462c0819:PsiDirectoryNode" />
-              <item name="Utilities" type="462c0819:PsiDirectoryNode" />
+              <item name="test-output" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -244,7 +253,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549175071062" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549189531741" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -258,9 +267,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SalesChannel_BRIT3556">
-    <configuration name="CustomerCardOnWebsiteBRIT2005.customerCardOnWebsiteVerifyTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BriteErp-Project" />
+  <component name="RunManager" selected="TestNG.ErrorValidationSalesChannel">
+    <configuration name="CustomerCardOnWebsiteBRIT2005" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BriteErp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.BriteErp.Tests.Functional_Tests.*" />
@@ -269,16 +278,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.BriteErp.Tests.Functional_Tests" />
       <option name="MAIN_CLASS_NAME" value="com.BriteErp.Tests.Functional_Tests.CustomerCardOnWebsiteBRIT2005" />
-      <option name="METHOD_NAME" value="customerCardOnWebsiteVerifyTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ErrorValidationCustomerCardFieldsBRIT1742.ErrorValidationTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BriteErp-Project" />
+    <configuration name="CustomerInfoCardBRIT1927" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BriteErp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.BriteErp.Tests.Functional_Tests.*" />
@@ -286,45 +293,23 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.BriteErp.Tests.Functional_Tests" />
-      <option name="MAIN_CLASS_NAME" value="com.BriteErp.Tests.Functional_Tests.ErrorValidationCustomerCardFieldsBRIT1742" />
-      <option name="METHOD_NAME" value="ErrorValidationTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="com.BriteErp.Tests.Functional_Tests.CustomerInfoCardBRIT1927" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MobilePreviewBRIT2021.MobilePreviewFunctionalTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BriteErp-Project" />
+    <configuration name="ErrorValidationSalesChannel" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BriteErp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.BriteErp.Tests.Functional_Tests.MobilePreviewBRIT2021.*" />
+          <option name="PATTERN" value="com.BriteErp.Tests.Functional_Tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.BriteErp.Tests.Functional_Tests.MobilePreviewBRIT2021" />
-      <option name="MAIN_CLASS_NAME" value="com.BriteErp.Tests.Functional_Tests.MobilePreviewBRIT2021.MobilePreviewBRIT2021" />
-      <option name="METHOD_NAME" value="MobilePreviewFunctionalTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PagesTitlesTest.pageTitleTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BriteErp-Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.BriteErp.Tests.Smoke_Tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.BriteErp.Tests.Smoke_Tests" />
-      <option name="MAIN_CLASS_NAME" value="com.BriteErp.Tests.Smoke_Tests.PagesTitlesTest" />
-      <option name="METHOD_NAME" value="pageTitleTests" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="com.BriteErp.Tests.Functional_Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.BriteErp.Tests.Functional_Tests.ErrorValidationSalesChannel" />
       <properties />
       <listeners />
       <method v="2">
@@ -347,20 +332,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SalesChannel_BRIT3556.SalesChannelTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BriteErp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.BriteErp.Tests.Functional_Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.BriteErp.Tests.Functional_Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.BriteErp.Tests.Functional_Tests.SalesChannel_BRIT3556" />
+      <option name="METHOD_NAME" value="SalesChannelTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="TestNG.PagesTitlesTest.pageTitleTests" />
-      <item itemvalue="TestNG.ErrorValidationCustomerCardFieldsBRIT1742.ErrorValidationTest" />
-      <item itemvalue="TestNG.MobilePreviewBRIT2021.MobilePreviewFunctionalTest" />
-      <item itemvalue="TestNG.CustomerCardOnWebsiteBRIT2005.customerCardOnWebsiteVerifyTest" />
       <item itemvalue="TestNG.SalesChannel_BRIT3556" />
+      <item itemvalue="TestNG.SalesChannel_BRIT3556.SalesChannelTest" />
+      <item itemvalue="TestNG.CustomerCardOnWebsiteBRIT2005" />
+      <item itemvalue="TestNG.CustomerInfoCardBRIT1927" />
+      <item itemvalue="TestNG.ErrorValidationSalesChannel" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ErrorValidationSalesChannel" />
         <item itemvalue="TestNG.SalesChannel_BRIT3556" />
-        <item itemvalue="TestNG.CustomerCardOnWebsiteBRIT2005.customerCardOnWebsiteVerifyTest" />
-        <item itemvalue="TestNG.MobilePreviewBRIT2021.MobilePreviewFunctionalTest" />
-        <item itemvalue="TestNG.ErrorValidationCustomerCardFieldsBRIT1742.ErrorValidationTest" />
-        <item itemvalue="TestNG.PagesTitlesTest.pageTitleTests" />
+        <item itemvalue="TestNG.CustomerInfoCardBRIT1927" />
+        <item itemvalue="TestNG.CustomerCardOnWebsiteBRIT2005" />
+        <item itemvalue="TestNG.SalesChannel_BRIT3556.SalesChannelTest" />
       </list>
     </recent_temporary>
   </component>
@@ -386,35 +389,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MobilePreviewBRIT2021_MobilePreviewFunctionalTest - 2019.02.01 at 00h 25m 59s.xml">
-      <configuration name="MobilePreviewBRIT2021.MobilePreviewFunctionalTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CustomerCardOnWebsiteBRIT2005_customerCardOnWebsiteVerifyTest - 2019.02.01 at 00h 34m 52s.xml">
-      <configuration name="CustomerCardOnWebsiteBRIT2005.customerCardOnWebsiteVerifyTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CustomerCardOnWebsiteBRIT2005_customerCardOnWebsiteVerifyTest - 2019.02.01 at 00h 37m 01s.xml">
-      <configuration name="CustomerCardOnWebsiteBRIT2005.customerCardOnWebsiteVerifyTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CustomerCardOnWebsiteBRIT2005_customerCardOnWebsiteVerifyTest - 2019.02.01 at 00h 43m 13s.xml">
-      <configuration name="CustomerCardOnWebsiteBRIT2005.customerCardOnWebsiteVerifyTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CustomerCardOnWebsiteBRIT2005_customerCardOnWebsiteVerifyTest - 2019.02.01 at 00h 46m 36s.xml">
-      <configuration name="CustomerCardOnWebsiteBRIT2005.customerCardOnWebsiteVerifyTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CustomerCardOnWebsiteBRIT2005_customerCardOnWebsiteVerifyTest - 2019.02.01 at 00h 48m 14s.xml">
-      <configuration name="CustomerCardOnWebsiteBRIT2005.customerCardOnWebsiteVerifyTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CustomerCardOnWebsiteBRIT2005_customerCardOnWebsiteVerifyTest - 2019.02.01 at 00h 49m 45s.xml">
-      <configuration name="CustomerCardOnWebsiteBRIT2005.customerCardOnWebsiteVerifyTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CustomerCardOnWebsiteBRIT2005_customerCardOnWebsiteVerifyTest - 2019.02.01 at 00h 53m 51s.xml">
-      <configuration name="CustomerCardOnWebsiteBRIT2005.customerCardOnWebsiteVerifyTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CustomerCardOnWebsiteBRIT2005_customerCardOnWebsiteVerifyTest - 2019.02.01 at 00h 55m 15s.xml">
-      <configuration name="CustomerCardOnWebsiteBRIT2005.customerCardOnWebsiteVerifyTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SalesChannel_BRIT3556 - 2019.02.03 at 00h 22m 25s.xml">
+    <history-entry file="SalesChannel_BRIT3556 - 2019.02.03 at 03h 15m 15s.xml">
       <configuration name="SalesChannel_BRIT3556" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SalesChannel_BRIT3556 - 2019.02.03 at 03h 20m 01s.xml">
+      <configuration name="SalesChannel_BRIT3556" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SalesChannel_BRIT3556 - 2019.02.03 at 03h 36m 56s.xml">
+      <configuration name="SalesChannel_BRIT3556" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SalesChannel_BRIT3556 - 2019.02.03 at 03h 46m 58s.xml">
+      <configuration name="SalesChannel_BRIT3556" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SalesChannel_BRIT3556 - 2019.02.03 at 03h 50m 28s.xml">
+      <configuration name="SalesChannel_BRIT3556" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SalesChannel_BRIT3556 - 2019.02.03 at 03h 57m 12s.xml">
+      <configuration name="SalesChannel_BRIT3556" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ErrorValidationSalesChannel - 2019.02.03 at 04h 10m 09s.xml">
+      <configuration name="ErrorValidationSalesChannel" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ErrorValidationSalesChannel - 2019.02.03 at 04h 13m 34s.xml">
+      <configuration name="ErrorValidationSalesChannel" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ErrorValidationSalesChannel - 2019.02.03 at 04h 18m 10s.xml">
+      <configuration name="ErrorValidationSalesChannel" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ErrorValidationSalesChannel - 2019.02.03 at 04h 24m 01s.xml">
+      <configuration name="ErrorValidationSalesChannel" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -465,13 +468,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_tests/CustomerInfoCard/CustomerInfoCardBRIT1927.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/CustomerIngoCardBRIT1927.java" />
-    <entry file="file://$PROJECT_DIR$/testng_runner">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/package-info.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/Utilities/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -532,36 +528,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/CustomerInfoCardBRIT1927.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/CustomerCardOnWebsiteBRIT2005.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-90">
-          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/ErrorValidationCustomerCardFieldsBRIT1742.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/Utilities/Pages.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
@@ -576,16 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/Utilities/BrowserUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="106" selection-start-line="106" selection-end-line="106" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/pages/MobilePreviewPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -596,20 +552,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/pages/SalesChannelPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/CustomerInfoCardBRIT1927.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
+        <state relative-caret-position="-293">
+          <caret line="18" column="36" lean-forward="true" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/SalesChannel_BRIT3556.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/CustomerCardOnWebsiteBRIT2005.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="70" selection-start-line="25" selection-start-column="70" selection-end-line="25" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/ErrorValidationCustomerCardFieldsBRIT1742.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="16" column="42" lean-forward="true" selection-start-line="16" selection-start-column="42" selection-end-line="16" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/Utilities/BrowserUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
-          <caret line="34" column="62" lean-forward="true" selection-start-line="34" selection-start-column="62" selection-end-line="34" selection-end-column="62" />
+          <caret line="124" column="23" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -618,8 +594,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/pages/CRMmodule.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="90" />
+        <state relative-caret-position="288">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng_runner">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/SalesChannel_BRIT3556.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="89" column="8" lean-forward="true" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/pages/SalesChannelPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/BriteErp/Tests/Functional_Tests/ErrorValidationSalesChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="39" column="81" selection-start-line="39" selection-start-column="81" selection-end-line="39" selection-end-column="81" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
