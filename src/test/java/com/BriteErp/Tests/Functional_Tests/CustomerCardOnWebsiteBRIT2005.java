@@ -28,6 +28,7 @@ public class CustomerCardOnWebsiteBRIT2005 extends TestBase {
 
         //6. Click on Create button
         BrowserUtils.explicitWaitTitleIs(20, ApplicationConstants.CUSTOMERSTITLE);
+        BrowserUtils.waitForClickablility(pages.customer().customerCardCreateButton,15);
         pages.customer().customerCardCreateButton.click();
 
 /**
