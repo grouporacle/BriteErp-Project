@@ -61,7 +61,7 @@ public class SalesChannel_BRIT3556 extends TestBase {
            StringOptions.add(option.get(i).getText());
        }
 
-        System.out.println(StringOptions);
+        Assert.assertTrue(StringOptions.equals(pages.salesPage().sortedArray(StringOptions)));
 
 
     }

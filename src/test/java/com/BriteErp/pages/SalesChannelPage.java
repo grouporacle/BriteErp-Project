@@ -6,6 +6,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import java.util.Collections;
+import java.util.List;
+
 public class SalesChannelPage{
 
     public SalesChannelPage() {
@@ -38,6 +41,11 @@ public class SalesChannelPage{
         int ep = String.valueOf(element).length()-1;
 
         return String.valueOf(element).substring(sp-1,ep).trim();
+    }
+
+    public List<String> sortedArray(List<String> list){
+        Collections.sort(list);
+        return list;
     }
 
 }
