@@ -76,7 +76,9 @@ public abstract class TestBase {
     }
 
 
-
+    public static int randomNumber(int start, int end) {
+        return start + (int) (Math.random() * (end - start + 1));
+    }
 
 
 

@@ -102,6 +102,7 @@ public class BrowserUtils {
         return elemTexts;
     }
 
+
     public static WebElement waitForVisibility(WebElement element, int timeToWaitInSec) {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), timeToWaitInSec);
         return wait.until(ExpectedConditions.visibilityOf(element));
@@ -242,7 +243,7 @@ public class BrowserUtils {
      * Scrolls down to an element using JavaScript
      * @param element
      */
-    public void scrollToElement(WebElement element) {
+    public static void scrollToElement(WebElement element) {
         ((JavascriptExecutor) Driver.getDriver()).executeScript("arguments[0].scrollIntoView(true);", element);
     }
 

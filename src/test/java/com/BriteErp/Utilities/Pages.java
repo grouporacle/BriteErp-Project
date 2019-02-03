@@ -8,7 +8,8 @@ public class Pages {
     private CustomersPage customersPage;
     private MobilePreviewPage mobilePreviewPage;
     private SalesChannelPage salesChannelPage;
-   // private ManagersPage managersPage;
+    // private ManagersPage managersPage;
+    private PipelineCreateAnOpportunityPage pipelineCreateAnOpportunityPage;
 
     public LoginPage login() {
         if (loginPage == null) {
@@ -37,6 +38,7 @@ public class Pages {
         }
         return customersPage;
     }
+
     public MobilePreviewPage mobilePreviewPage() {
         if (mobilePreviewPage == null) {
             mobilePreviewPage = new MobilePreviewPage();
@@ -44,10 +46,17 @@ public class Pages {
         return mobilePreviewPage;
     }
 
-   // public ManagersPage manager() {
-    //    if (managersPage == null) {
+    public PipelineCreateAnOpportunityPage caop() {
+        if (pipelineCreateAnOpportunityPage == null) {
+            pipelineCreateAnOpportunityPage = new PipelineCreateAnOpportunityPage();
+        }
+            return pipelineCreateAnOpportunityPage;
+
+        }
+    // public ManagersPage manager() {
+    //    if (managersPage == null)
     //        managersPage = new ManagersPage();
     //    }
-     //   return managersPage;
-  //  }
+    //   return managersPage;
+    //  }
 }
