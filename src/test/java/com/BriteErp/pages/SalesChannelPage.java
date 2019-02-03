@@ -18,8 +18,31 @@ public class SalesChannelPage{
     @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/ol/li")
     public WebElement header;
 
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div[2]/div/div/div/div[1]/div/div[2]/h1/span")
+    public WebElement header2;
+
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/div[2]/div[1]/div/div[2]/button[1]")
+    public WebElement saveButton;
+
     @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/div[2]/div[1]/div/button[1]")
     public WebElement createButton;
+
+    @FindBy(xpath = "//button[contains(text(),'Create')]")
+    public WebElement createButton2;
+
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/div[2]/div[1]/div/div[2]/button[2]")
+    public WebElement discardButton;
+
+
+    @FindBy(xpath = "//label[@class='btn btn-primary']")
+    public WebElement loadButton;
+
+
+    @FindBy(xpath = "//input[@id='my-file-selector']")
+    public WebElement loadButton2;
+
+    @FindBy(xpath = "//button[contains(text(),'Import')]")
+    public WebElement importButton;
 
     @FindBy(xpath = "//h1//input")
     public WebElement nameBox;
@@ -32,6 +55,13 @@ public class SalesChannelPage{
 
     @FindBy(xpath = "(//div//div//div//div//div//div//div//div//div//div//div//input)[4]")
     public WebElement dropdown;
+
+
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div[2]/form/div[2]/div[3]/div/p[1]")
+    public WebElement error1;
+
+    @FindBy(xpath = "//span[contains(text(),'Inbox')]")
+    public WebElement first;
 
     @FindBy(xpath = "/html[1]/body[1]/ul[1]/li")
     public WebElement options;

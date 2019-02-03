@@ -10,7 +10,7 @@ public class CRMmodule {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(xpath = "(//span[@class='oe_menu_text'])[5]")
+    @FindBy(xpath = "//*[@id=\"oe_main_menu_navbar\"]/div[2]/ul[1]/li[5]/a")
     public WebElement CRMheader;
 
     @FindBy(xpath = "(//span[@class='oe_menu_text'])[19]")
