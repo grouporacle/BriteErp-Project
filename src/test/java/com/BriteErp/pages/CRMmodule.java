@@ -15,4 +15,7 @@ public class CRMmodule {
 
     @FindBy(xpath = "(//span[@class='oe_menu_text'])[19]")
     public WebElement customersHeader;
+
+    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[5]/ul[3]/li[1]/a[1]/span[1]")
+    public WebElement salesChannelsLink;
 }
