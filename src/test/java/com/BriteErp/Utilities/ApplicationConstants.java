@@ -1,7 +1,7 @@
 package com.BriteErp.Utilities;
 
 public class ApplicationConstants {
-//titles of all buttons in homepage
+    //titles of all buttons in homepage
     public static final String INBOX = "#Inbox";
     public static final String CALENDAR= "Meetings (Week 5)";
     public static final String NOTES = "Notes";
@@ -22,4 +22,18 @@ public class ApplicationConstants {
     public static final String CUSTOMERSTITLE="Customers - Odoo";
     public static final String NEWTITLE="New - Odoo";
     public static final String PIPELINE="Pipeline - Odoo";
+    public static final String QUOTATIONS="Quotations";
+    public static final String PIPELINEAN="Pipeline Analysis";
+    public static final String ACTIVITIES="Activities Analysis";
+    public static final String SALESCH="Sales Channels";
+    public static final String ACTIVITY="Activity Types";
+    public static final String LEADTAGS="Lead Tags";
+    public static final String LOST="Lost Reasons";
+
+
+
+
+
+
+
 }
