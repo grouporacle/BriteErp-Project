@@ -20,9 +20,9 @@ public class PagesTitlesTestBRIT3603 extends TestBase {
         extentLogger.info("Checking the title contains Login");
         Assert.assertTrue(driver.getTitle().contains("Login"));
         //3. Login as any valid user
-        pages.login().login(ConfigurationReader.getProperty("Uusername"), ConfigurationReader.getProperty("Upassword"));
-        extentLogger.info("Logging to the application");
-
+       // pages.login().login(ConfigurationReader.getProperty("Uusername"), ConfigurationReader.getProperty("Upassword"));
+      //  extentLogger.info("Logging to the application");
+        pages.login().loginAsUser();
         //4.check title odoo
         extentLogger.info("Check title odoo");
         Assert.assertTrue(driver.getTitle().contains(ApplicationConstants.ODOOTITLE));
