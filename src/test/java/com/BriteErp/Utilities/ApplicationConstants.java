@@ -21,4 +21,5 @@ public class ApplicationConstants {
     public static final String PIPELINETITLE="Pipeline - Odoo";
     public static final String CUSTOMERSTITLE="Customers - Odoo";
     public static final String NEWTITLE="New - Odoo";
+    public static final String PIPELINE="Pipeline - Odoo";
 }
