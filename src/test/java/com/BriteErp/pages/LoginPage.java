@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
-
+    public boolean isManager;
     public LoginPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
@@ -42,6 +42,18 @@ public class LoginPage {
         Driver.getDriver().get(ConfigurationReader.getProperty("url"));
         Driver.getDriver().findElement(By.xpath("/html/body/div[1]/div/div[2]/a[2]")).click();
 
+    }
+    public void loginAsManager(){
+        username.sendKeys(ConfigurationReader.getProperty("Musername"));
+        password.sendKeys(ConfigurationReader.getProperty("Mpassword"));
+        loginButton.click();
+        isManager = true;
+    }
+    public void loginAsUser(){
+        username.sendKeys(ConfigurationReader.getProperty("Uusername"));
+        password.sendKeys(ConfigurationReader.getProperty("Upassword"));
+        loginButton.click();
+        isManager = false;
     }
 }
 

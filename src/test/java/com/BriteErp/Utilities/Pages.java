@@ -7,13 +7,23 @@ public class Pages {
     private CRMmodule crmModule;
     private CustomersPage customersPage;
     private MobilePreviewPage mobilePreviewPage;
-   // private ManagersPage managersPage;
+    private SalesChannelPage salesChannelPage;
+    private CustomerPipePage customerPipe;
+   // private PipelineH pipelineH;
+    // private ManagersPage managersPage;
 
     public LoginPage login() {
         if (loginPage == null) {
             loginPage = new LoginPage();
         }
         return loginPage;
+    }
+
+    public SalesChannelPage salesPage() {
+        if (salesChannelPage == null) {
+            salesChannelPage = new SalesChannelPage();
+        }
+        return salesChannelPage;
     }
 
     public CRMmodule crm() {
@@ -29,17 +39,31 @@ public class Pages {
         }
         return customersPage;
     }
+
     public MobilePreviewPage mobilePreviewPage() {
         if (mobilePreviewPage == null) {
             mobilePreviewPage = new MobilePreviewPage();
         }
         return mobilePreviewPage;
     }
+   public CustomerPipePage customerPipe(){
+        if(customerPipe==null){
+            customerPipe=new CustomerPipePage();
+        }
+        return customerPipe;
+   }
 
-   // public ManagersPage manager() {
+
+
+    }
+
+
+
+
+        // public ManagersPage manager() {
     //    if (managersPage == null) {
     //        managersPage = new ManagersPage();
     //    }
      //   return managersPage;
   //  }
-}
+

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="BriteErp" />
         <module name="BriteErp-Project" />
+        <module name="testng-selenium-framework" />
       </profile>
     </annotationProcessing>
   </component>
