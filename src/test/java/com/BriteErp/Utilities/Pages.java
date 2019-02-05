@@ -9,8 +9,8 @@ public class Pages {
     private MobilePreviewPage mobilePreviewPage;
     private SalesChannelPage salesChannelPage;
     private CustomerPipePage customerPipe;
-   // private PipelineH pipelineH;
-    // private ManagersPage managersPage;
+    private ManagersPage managersPage;
+    // private PipelineH pipelineH;
 
     public LoginPage login() {
         if (loginPage == null) {
@@ -46,24 +46,18 @@ public class Pages {
         }
         return mobilePreviewPage;
     }
-   public CustomerPipePage customerPipe(){
-        if(customerPipe==null){
-            customerPipe=new CustomerPipePage();
+
+    public CustomerPipePage customerPipe() {
+        if (customerPipe == null) {
+            customerPipe = new CustomerPipePage();
         }
         return customerPipe;
-   }
-
-
-
     }
 
-
-
-
-        // public ManagersPage manager() {
-    //    if (managersPage == null) {
-    //        managersPage = new ManagersPage();
-    //    }
-     //   return managersPage;
-  //  }
-
+    public ManagersPage manager() {
+        if (managersPage == null) {
+            managersPage = new ManagersPage();
+        }
+        return managersPage;
+    }
+}
