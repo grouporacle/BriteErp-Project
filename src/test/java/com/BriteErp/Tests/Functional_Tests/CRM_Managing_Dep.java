@@ -1,33 +1,19 @@
 package com.BriteErp.Tests.Functional_Tests;
-/*
-1 – Verify that Events CRM Manager can see options of activity types.
-2 – Verify that Events CRM Manager should be able to import activity types.
-3 –Verify Events CRM Manager should be able to create activity types.
-4 –Verify that Events CRM Manager can search names by entering keyword to the search box
-       Then hitting enter.
-5 – Verify that the Events CRM Manager can update the summary of activity types.
-6 – Verify that Events CRM Manager can print all names of the activity types.
- 7- Verify that Events CRM Manager should be able to delete the activity types.
-8 – Verify that Events CRM Manager should be able to update activity types.
- */
+
 
 import com.BriteErp.Utilities.BrowserUtils;
 import com.BriteErp.Utilities.ConfigurationReader;
 import com.BriteErp.Utilities.TestBase;
-import net.bytebuddy.asm.Advice;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.security.Key;
-import java.util.List;
 
 public class CRM_Managing_Dep extends TestBase {
 
     @Test
-    public void customerInfoCardCreateTest() {
+    public void CRM_ManagingCreateTest() {
         //1. Open browser
         //2. Go to url http://52.39.162.23
         //3. Login as any valid user
