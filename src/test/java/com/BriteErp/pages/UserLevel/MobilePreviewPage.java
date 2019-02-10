@@ -1,4 +1,4 @@
-package com.BriteErp.pages;
+package com.BriteErp.pages.UserLevel;
 
 import com.BriteErp.Utilities.Driver;
 import org.openqa.selenium.WebElement;

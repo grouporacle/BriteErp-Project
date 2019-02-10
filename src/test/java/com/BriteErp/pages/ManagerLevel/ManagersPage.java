@@ -1,4 +1,4 @@
-package com.BriteErp.pages;
+package com.BriteErp.pages.ManagerLevel;
 
 import com.BriteErp.Utilities.Driver;
 import com.BriteErp.Utilities.Pages;

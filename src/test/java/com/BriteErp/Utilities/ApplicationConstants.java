@@ -29,6 +29,8 @@ public class ApplicationConstants {
     public static final String ACTIVITY="Activity Types";
     public static final String LEADTAGS="Lead Tags";
     public static final String LOST="Lost Reasons";
+    public static final String ERRORMESSAGEINVALIDNAME ="The following fields are invalid:";
+    public static final String OPPORTUNITYTITLE="Opportunities - Odoo";
 
 
 

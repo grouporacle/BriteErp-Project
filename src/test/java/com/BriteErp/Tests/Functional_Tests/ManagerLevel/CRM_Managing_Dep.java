@@ -1,4 +1,4 @@
-package com.BriteErp.Tests.Functional_Tests;
+package com.BriteErp.Tests.Functional_Tests.ManagerLevel;
 
 
 import com.BriteErp.Utilities.BrowserUtils;

@@ -1,6 +1,8 @@
 package com.BriteErp.Utilities;
 
-import com.BriteErp.pages.*;
+import com.BriteErp.pages.ManagerLevel.ManagersPage;
+import com.BriteErp.pages.ManagerLevel.SalesChannelPage;
+import com.BriteErp.pages.UserLevel.*;
 
 public class Pages {
     private LoginPage loginPage;
@@ -10,6 +12,10 @@ public class Pages {
     private SalesChannelPage salesChannelPage;
     private CustomerPipePage customerPipe;
     private ManagersPage managersPage;
+    private SalesPurchasesPage salesPurchasesPage;
+    private OpportunityPage opportunityPage;
+    private MeetingPage meetingPage;
+    private InternalPage internalPage;
     // private PipelineH pipelineH;
 
     public LoginPage login() {
@@ -59,5 +65,30 @@ public class Pages {
             managersPage = new ManagersPage();
         }
         return managersPage;
+    }
+
+    public SalesPurchasesPage salesPurchasesPage() {
+        if (salesPurchasesPage == null) {
+            salesPurchasesPage = new SalesPurchasesPage();
+        }
+        return salesPurchasesPage;
+    }
+    public OpportunityPage opportunityPage() {
+        if (opportunityPage == null) {
+            opportunityPage = new OpportunityPage();
+        }
+        return opportunityPage;
+    }
+    public MeetingPage meetingPage() {
+        if (meetingPage== null) {
+           meetingPage = new MeetingPage();
+        }
+        return meetingPage;
+    }
+    public InternalPage internalPage() {
+        if (internalPage == null) {
+            internalPage = new InternalPage();
+        }
+        return internalPage;
     }
 }
