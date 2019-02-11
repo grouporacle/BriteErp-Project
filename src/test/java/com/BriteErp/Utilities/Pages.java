@@ -11,7 +11,7 @@ public class Pages {
     private CustomerPipePage customerPipe;
     private ManagersPage managersPage;
     // private PipelineH pipelineH;
-
+    private PipelineImportPage importuserpage;
     public LoginPage login() {
         if (loginPage == null) {
             loginPage = new LoginPage();
@@ -60,4 +60,13 @@ public class Pages {
         }
         return managersPage;
     }
+    public PipelineImportPage importuser() {
+        if (importuserpage == null) {
+            importuserpage = new PipelineImportPage();
+
+        }
+        return importuserpage;
+    }
+
+
 }
